@@ -1,10 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html>
     <head>
-        <title>Fullscreen Gallery with Thumbnail Flip</title>
+        <title>Thank you for an amazing experience</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="Fullscreen Gallery with Thumbnail Flip using jQuery" />
-        <meta name="keywords" content="jquery, background, full page, fullscreen, image, thumbnail, flip, gallery, slider, slide in, keyboard, key navigation, mousewheel, google font api"/>
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
@@ -14,53 +12,37 @@
 		<div id="tf_loading" class="tf_loading"></div>
 		<div id="tf_bg" class="tf_bg">
 			<img src="images/hersh.jpg" alt="Image 1" longdesc="images/thumbs/hersh.jpg" />
-			<img src="images/rhondel.jpg" alt="Image 2" longdesc="images/thumbs/rhondel.png"/>
+			<img src="images/rhondel.jpg" alt="Image 2" longdesc="images/thumbs/rhondel.jpg"/>
 			<img src="images/joe.jpg" alt="Image 3" longdesc="images/thumbs/joe.jpg"/>
 			<img src="images/vikram.jpg" alt="Image 4" longdesc="images/thumbs/vikram.jpg"/>
-			<img src="images/anu.jpg" alt="Image 5" longdesc="images/thumbs/anu.jpg"/>
-			<!-- <img src="images/6.jpg" alt="Image 6" longdesc="images/thumbs/6.jpg"/> -->
+			<img src="images/anu.jpg" alt="Image 5" longdesc="images/thumbs/anu1.jpg"/>
 			<div class="tf_pattern"></div>
 		</div>
 		<div id="tf_content_wrapper" class="tf_content_wrapper">
 			<div class="tf_content" id="content1" style="display:block;">
 				<h2> Hersh "the Bossman" Parikh
-				<!-- <h2>Dreamer</h2> -->
-				<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
-				<p> You promised me you'd get my hands dirty the first day I talked to you...you were right and I never thought I'd love it as much as I did. Thanks for giving me an unforgettable HAAS experience and making tech work look as cool as a corona ;). I had amazing fun. My weekends wouldn't be the same if I wasnt scrolling through pictures of amazing food and drink while sipping Snapple. 
+				<p id="hersh"> You promised me I'd get my hands dirty the first day I talked to you...you were right and I never thought I'd love it as much as I did. Thanks for giving me an unforgettable HAAS experience and making tech work look as cool as a corona ;). I had amazing fun. My weekends wouldn't be the same if I wasnt jealous and scrolling through pictures of amazing food and drink you send. 
 			</div>
 			<div class="tf_content" id="content2">
 				<h2> Rhondel "the King" Whyte
-				<!-- <h2>Crusader</h2> -->
-				<!-- <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-
-				<p> Though you rejected my friendship after I hated on Cadbury and Coke, in my mind, we're still tight. Thank you for understanding my starbucks addiction, for making me an honorary Trinidadian and for being the best Jeopardy partner I could ask for. 
+				<p> Though you rejected my friendship after I hated on Cadbury and Pepsi, in my mind, we're still tight. Thank you for understanding my starbucks addiction, for making me an honorary Trinidadian and for being the best Jeopardy partner I could ask for. Good luck on your exam; channel my good energy :P.
 			</div>
 			<div class="tf_content" id="content3">
 				<h2> Joe "Italian Stallion" Sanfratello
-				<!-- <h2>Adventurer</h2> -->
-				<!-- <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 				<p> You're the first person I talked to on team HAAS when you laughed at me for going to the wrong office but then gave me directions to the right one. This seemed to be a constant theme through the internship when I panic and come to you for guidance, be it code review or deliverables or "am-i-gonna-get-fired-for-time-card-issues." Thanks for never being more than a message away and sharing my like for code lol.
 				</p>
 			</div>
 			<div class="tf_content" id="content4">
 				<h2> Vikram "Coolio" Kulothungan
-				<!-- <h2>Risk Taker</h2> -->
-				<!-- <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p> -->
 				<p> Definately one of the most interesting, funny people I met, but beyond that always had a message for life. You'll always have job security in standup because your anecdotes are on point. We are Tartans and Tamil bros and next time, we shall have a dosa party.
 				</p>
 			</div>
 			<div class="tf_content" id="content5">
 				<h2> Anu "the Intern" Srikanth
-				<!-- <h2>Visioneer</h2> -->
-				<!-- <p>Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.</p> -->
-				<p> I'm sorry I'm so extra. I didn't want to be too boring with thank you emails and I don't think it would suit such a cool team (sorry for being this corny). 
+				<p> I'm sorry I'm so extra. I didn't want to be too boring with the thank you emails and I don't think it would suit such a cool team (disregard the corniness). I just wanted to say that this internship wouldnt have been this amazing if it weren't for you guys. If I'm even half as successful, I'll be lucky :). 
 
 				I got an offer from Deloitte :). 
 			</div>
-<!-- 			<div class="tf_content" id="content6">
-				<h2>Magician</h2>
-				<p>And if she hasn’t been rewritten, then they are still using her. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-			</div> -->
 		</div>
 
 		<div id="tf_thumbs" class="tf_thumbs">
@@ -71,11 +53,6 @@
 		<div id="tf_next" class="tf_next"></div>
 		<div id="tf_prev" class="tf_prev"></div>
 		
-<!-- 		<div class="reference">
-			<a href="http://tympanus.net/Development/3DWallGallery/" class="last">&laquo; Previous Demo: 3D Wall Gallery</a>
-			<a href="http://www.fashionserved.com/gallery/Fashion/731038" target="_blank">Images by Polina Efremova</a>
-			<a href="http://tympanus.net/codrops/2011/02/09/fullscreen-gallery-with-thumbnail-flip/">back to the Codrops tutorial</a>
-		</div> -->
 		<div class="description">
 			<span>Use keys &uarr; and &darr; or the wheel of the mouse to navigate.</span>
 		</div>

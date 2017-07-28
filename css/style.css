@@ -16,10 +16,11 @@ body{
 	position:absolute;
 	top:0px; /*-482px;	 -(imgh/2 - wh/2) */
 	left:0px;	/* calculate a negative value to center horizontally */
-	width:100%;	/* windowwidth plus negative value of left */
+	width: 100%%;	/* windowwidth plus negative value of left */
 	/*height:1650px; /* windowheight plus negative value of top */
 	z-index: 1;
 	display:none;
+	height: 90%;
 }
 .tf_pattern{
 	position:absolute;
@@ -177,3 +178,7 @@ a.last{
 .reference a:hover{
 	text-shadow:0px 0px 1px #fff;
 }
+
+/*#hersh{
+	color: gray;
+}*/
