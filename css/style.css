@@ -164,12 +164,13 @@ body{
 	z-index:999;
 }
 .reference a, .description span{
-	color:#fff;
+	/*color:#fff;*/
+	color: #9ACD66;
 	text-transform: uppercase;
 	margin-left:20px;
 	text-decoration:none;
 	font-family:Arial;
-	font-size:10px;
+	font-size:25px;
 }
 a.last{
 	float:left;
